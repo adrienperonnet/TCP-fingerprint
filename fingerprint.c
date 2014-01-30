@@ -9,7 +9,7 @@
 #include <netinet/tcp.h> /* tcp structure */
 #include <arpa/inet.h> /* inet_ntoa */
 #include "fingerprinter.h" /* New structure to fingerprint a packet  */
-#include "arp.h"
+#include "fingerprint.h"
 
 /* for the sake of clarity we'll use globals for a few things */
 char *device;       /* device to sniff on */
