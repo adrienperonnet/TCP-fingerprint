@@ -4,6 +4,6 @@ The script use the etter.finger.os fingerprinting database.
 
 ===Install===
 
-aptitude install libpcap-dev
+aptitude install libpcap-dev &&
 gcc -lpcap fingerprint.c -o arp
 
